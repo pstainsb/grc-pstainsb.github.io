@@ -14,7 +14,9 @@ img {
 }
 
 body {
-    font-family:sans-serif;
+    font-family: josefin-sans, sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 div.container, div.home-container {
@@ -23,31 +25,36 @@ div.container, div.home-container {
 }
 
 h1 {
-    width: 6em;
+    width: 14em;
     margin-top: 1rem;
 }
 
 a {
     text-decoration: none;
-    font-family: sans-serif;
-    color: rgb(79, 130, 174);
+    font-family: josefin-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #8e936d;
 }
 
 nav ul li {
     font-weight: bolder;
     font-size: 1em;
     list-style-type:none;
-    padding-top:0.5em;
+    padding:0.5em 1em 0 0;
+    display:inline;
 }
+
 
 h1, nav {
     margin-bottom:1em;
 }
 
 h2 {
-    font-family:serif;
-    font-weight:bold;
-    color:#579;
+    font-family: the-seasons, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color:#00281c;
 }
 
 article h2 {
@@ -69,7 +76,7 @@ section.second-story h2{
 }
 
 aside {
-    background: #cccfff;
+    background: #f3eff5;
     padding:1em .5em;
 }
 
@@ -78,18 +85,23 @@ section.third-story h2{
 }
 
 section.third-story {
-    border-top: 1px solid #579;
+    border-top: 0.1em solid #00281C;
     padding:.5em 0 1em 0;
 }
 
 section.main-story p, section.second-story p, section.third-story p, section.second-story-main p, article p {
     color:rgb(0, 0, 0);
+    font-family: josefin-sans, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding-bottom:0.5em;
 }
 
 figcaption {
     color: rgb(76, 76, 76);
     font-style: italic;
-    font-family:sans-serif;
+    font-family: josefin-sans, sans-serif;
+    font-weight: 300;
     margin-bottom:1em;
 }
 
@@ -98,9 +110,10 @@ div.home-container aside {
 }
 
 aside h2 {
-    font-family: serif; 
-    font-size: large;
-    font-weight: bold;
+    font-family: the-seasons, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1em;
 }
 
 aside img {
@@ -114,21 +127,24 @@ aside p {
 
 article h2 {
     font-size:2em;
-    font-family:serif;
-    font-weight:bolder;
-    color:rgb(79, 130, 174);
+    color:#8e936d;
+    font-family: the-seasons, sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 footer {
     padding: .5em 0;
-    background-color: #579;
+    background-color: #8e936d;
     color:rgb(255, 255, 255);
-    font-family: sans-serif; 
+    font-family: josefin-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
     width:100%;
     box-sizing:border-box;
 }
 
-@media only screen and (max-width:40em) {
+@media only screen and (max-width: 40em) {
     h1 {
         margin-left:0.5em;
     }
@@ -145,8 +161,9 @@ footer {
         margin-left:0.5em;
     }
 
-    nav {
+    nav ul li {
         margin-left:0.5em;
+        display:block;
     }
 }
 
