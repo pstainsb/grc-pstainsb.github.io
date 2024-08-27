@@ -347,6 +347,10 @@ div.form-container h3 {
         margin-left:0.5em;
         display:block;
     }
+
+    div.photo-container main {
+        min-height:49em;
+    }
 }
 
 @media only screen and (min-width:60em) {
