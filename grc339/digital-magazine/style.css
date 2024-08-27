@@ -272,7 +272,7 @@ button {
 section.personal-info ul li input[type="text"],
 section ul li input[type="email"],
 section ul li select {
-	flex:1 0 40em;
+	flex:1 0 30em;
 	box-sizing: border-box;
 }
 
@@ -316,6 +316,10 @@ div.form-container p {
 
 div.form-container h3 {
     margin-bottom:0em;
+}
+
+div.form-container h2 {
+    margin:0;
 }
 
 @media only screen and (min-width: 40em) {
