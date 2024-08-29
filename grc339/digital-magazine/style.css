@@ -94,6 +94,7 @@ section.main-story p, section.second-story p, section.third-story p, section.sec
     font-family: josefin-sans, sans-serif;
     font-weight: 300;
     font-style: normal;
+    font-size:1.1em;
     padding-bottom:0.5em;
 }
 
@@ -232,7 +233,7 @@ div.form-container body {
 	}
 	
 div.form-container {
-        max-width: 45em;
+        max-width: 50em;
         padding: 1em 1em 0em 1em;
 		display:flex;
 		flex-wrap:wrap;
@@ -247,7 +248,7 @@ div.form-container ul {
 
 .banner {
     width: 100%; 
-    height: 350px; 
+    height:22em; 
     overflow: hidden; 
 }
 
