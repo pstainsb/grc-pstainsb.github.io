@@ -81,11 +81,11 @@ aside {
 }
 
 section.third-story h2{
-    font-size:large;
+    font-size:1.3em;
 }
 
 section.third-story {
-    border-top: 0.1em solid #00281C;
+    border-top: 1px solid #00281C;
     padding:.5em 0 1em 0;
 }
 
@@ -259,7 +259,7 @@ div.form-container ul {
 }
 
 button {
-    border-radius:2em;
+    border-radius:8px;
     border:none;
     margin-bottom:1em;
     padding:0.5em 1em;
